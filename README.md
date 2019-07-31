@@ -48,12 +48,12 @@ git push
 
 #用squash 合并commit
 
-git checkout experiment
+git checkout [your branch]
 
 git rebase -i master
 
 git checkout master
 
-git merge experiment
+git merge [your branch]
 
 git push
