@@ -32,7 +32,7 @@ git push origin --delete [remote_branch]
 
 git branch -d [local_branch]
 
-#当Dev branch 和master 产生分支路的时候， 使用rebase 来merge， 避免历史中产生旁路 git checkout experiment
+#当Dev branch 和master 产生分支路的时候， 使用rebase 来merge， 避免历史中产生旁路 
 
 git rebase master
 
@@ -42,7 +42,7 @@ git rebase --continue
 
 git checkout master
 
-git merge experiment
+git merge [your branch]
 
 git push
 
